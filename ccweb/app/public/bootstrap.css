@@ -15,6 +15,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 :root {
   --blue: #25243C;
   --indigo: #6610f2;
@@ -67,7 +68,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Josefin Sans", sans-serif, "Lato";
+  font-family: "Source Sans Pro", sans-serif, "Lato";
   font-size: 0.9375rem;
   font-weight: 400;
   line-height: 1.5;
@@ -87,8 +88,16 @@ hr {
   overflow: visible;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
   font-family: "Montserrat", sans-serif, "Lato";
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+
+h2, h3, h4, h5, h6 {
+  font-family: "Josefin Sans", sans-serif, "Lato";
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
@@ -410,13 +419,14 @@ h6, .h6 {
 
 .ccheader {
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: bold;
   font-family: "Montserrat", "Josefin Sans", sans-serif;
 }
 
 .ccheader-desc {
   font-size: 0.8rem;
   font-weight: 400;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .display-1 {
