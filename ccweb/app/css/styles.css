@@ -165,7 +165,7 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #117964;
+  color: #cc7829;
   text-decoration: underline;
 }
 
@@ -2450,13 +2450,13 @@ fieldset:disabled a.btn {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #159a80;
-  border-color: #148f77;
+  background-color: #f5841a;
+  border-color: #f5841a;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #159a80;
-  border-color: #148f77;
+  background-color: #f5841a;
+  border-color: #f5841a;
   box-shadow: 0 0 0 0.2rem rgba(60, 198, 171, 0.5);
 }
 .btn-primary.disabled, .btn-primary:disabled {
@@ -2466,7 +2466,7 @@ fieldset:disabled a.btn {
 }
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #148f77;
+  background-color: #f5841a;
   border-color: #12846e;
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
@@ -2889,7 +2889,7 @@ fieldset:disabled a.btn {
   text-decoration: none;
 }
 .btn-link:hover {
-  color: #117964;
+  color: #cc7829;
   text-decoration: underline;
 }
 .btn-link:focus, .btn-link.focus {
@@ -4610,7 +4610,7 @@ input[type=button].btn-block {
 }
 .page-link:hover {
   z-index: 2;
-  color: #117964;
+  color: #cc7829;
   text-decoration: none;
   background-color: #e9ecef;
   border-color: #dee2e6;
@@ -4714,7 +4714,7 @@ a.badge:hover, a.badge:focus {
 }
 a.badge-primary:hover, a.badge-primary:focus {
   color: #fff;
-  background-color: #148f77;
+  background-color: #f5841a;
 }
 a.badge-primary:focus, a.badge-primary.focus {
   outline: 0;
@@ -6114,7 +6114,7 @@ a.close.disabled {
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #148f77 !important;
+  background-color: #f5841a !important;
 }
 
 .bg-secondary {
@@ -9811,7 +9811,7 @@ button.bg-dark:focus {
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #117964 !important;
+  color: #cc7829 !important;
 }
 
 .text-secondary {
