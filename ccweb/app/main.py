@@ -13,3 +13,7 @@ app.mount("/js", StaticFiles(directory="app/js"), name="js")
 @app.get("/")
 async def read_index():
     return FileResponse('app/index.html')
+
+@app.get("/resume")
+async def get_resume():
+    return FileResponse("app/assets/resumes/ChristopherKok_ResumeMLE.pdf")
