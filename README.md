@@ -2,4 +2,4 @@
 
 Learn more about what I've proudly worked on! 
 
-[chriskok.site](chriskok.site)
+[chriskok.site](https://chriskok.site/)
