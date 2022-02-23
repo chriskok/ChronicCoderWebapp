@@ -16,4 +16,4 @@ async def read_index():
 
 @app.get("/resume")
 async def get_resume():
-    return FileResponse("app/assets/resumes/ChristopherKok_ResumeMLE.pdf")
+    return FileResponse("app/assets/resumes/ChristopherKok_Resume.pdf")
